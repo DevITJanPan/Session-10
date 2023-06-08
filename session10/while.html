@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While Bai Tap</title>
+  </head>
+  <body>
+    <script>
+
+
+      while(true){
+          let numberInput=Number(prompt("Nhập vào một số nguyên từ bàn phím:"));
+          if( !isNaN(numberInput )){
+              if (numberInput >=0 && numberInput <=10){
+                break;
+             }else{
+                  alert("Số vừa nhập có giá trị ngoài 0-10:");
+                }
+
+              }else{
+                  alert("Đây không phải là một số:");
+              }
+
+
+      }
+    
+    </script>
+  </body>
+</html>

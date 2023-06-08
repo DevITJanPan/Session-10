@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 4</title>
+</head>
+<body>
+    <script>
+        let number1=Number(prompt("Nhập vào số thứ nhất:"));
+        let number2=Number(prompt("Nhập vào số thứ 2:"));
+        let calculation=(prompt("Nhập vào phép tính:"));
+        switch( calculation){
+            case'+':
+            result=number1+number2;
+            break;
+            case'-':
+            result=number1-number2;
+            break;
+            case'*':
+            result=number1*number2;
+            break;
+            case'/':
+            result=number1/number2;
+            break;
+            default:
+            result=number1%number2;
+
+
+        }
+        document.write("Kết quả phép tính:",result);
+    </script>
+</body>
+</html>

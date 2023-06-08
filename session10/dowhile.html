@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap</title>
+</head>
+<body>
+    <script>
+        let studentId;
+        do{
+            studentId=prompt("Nhập mã sinh viên:");
+            if (studentId.length == 5 && studentId.startsWith("S")){
+                break;
+            }else{
+                alert("Mã sinh viên phải gồm 5 ký tự và bắt đầu là S, vui lòng nhập lại:");
+            }
+
+        }while(true);
+        alert("Mã sinh viên là"+studentId);
+    </script>
+</body>
+</html>

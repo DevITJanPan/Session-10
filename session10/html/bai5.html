@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai5</title>
+</head>
+<body>
+    <script>
+        let html=Number(prompt("Nhập vào điểm HTML:"));
+        let css=Number(prompt("Nhập vào điểm css:"));
+        let javascript=Number(prompt("Nhập vào điểm javascript:"));
+        let dtb= (html+css+javascript)/3;
+        if(dtb<5){
+            document.write('Yếu');
+        
+        }
+        else if(dtb<6){
+            document.write('kém');
+        }
+        else if(dtb<7){
+            document.write('Trung bình');
+        }
+        else if(dtb<8){
+            document.write('khá');
+        }
+        else if(dtb<9){
+            document.write('Giỏi');
+        }
+        else{
+            document.write('Xuất sắc'); 
+        }
+
+
+    </script>
+</body>
+</html>
